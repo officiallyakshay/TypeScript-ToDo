@@ -21,8 +21,8 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <span className="heading">Let's Be Productive!</span>
-      <p className="heading2">This todo list is for you to get your work done in an effective and time-efficient manner. Good luck! :)</p>
+      <span className="heading">Let's Be Productive! 🦄</span>
+      <p className="heading2">This todo list is for you to get your work done in an effective and time-efficient manner. Good luck! 🥳</p>
       <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
       <TodoList todos={todos} setTodos={setTodos} />
     </div>
